@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sweet Slices</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff6f6;
+      color: #333;
+    }
+    header {
+      background-color: #ffb6c1;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+      font-style: italic;
+    }
+    section {
+      padding: 2rem;
+      text-align: center;
+    }
+    h2 {
+      color: #d63384;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .item {
+      width: 220px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+    }
+    .item:hover {
+      transform: scale(1.05);
+    }
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .item-title {
+      padding: 0.8rem;
+      background-color: #ffe4ec;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sweet Slices</h1>
+    <p>Where every slice is a smile</p>
+  </header>
+
+  <section>
+    <h2>Freshly Baked Happiness</h2>
+    <div class="gallery">
+      <a href="cakes.html" class="item">
+        <img src="cakes.jpg" alt="Cake">
+        <div class="item-title">Cakes</div>
+      </a>
+      <a href="bento.html" class="item">
+        <img src="bento.jpg" alt="Bento Cakes">
+        <div class="item-title">Bento Cakes</div>
+      </a>
+      <a href="dream.html" class="item">
+        <img src="dream.jpg" alt="Dream Cakes">
+        <div class="item-title">Dream Cakes</div>
+      </a>
+      <a href="donuts.html" class="item">
+        <img src="donut.jpg" alt="Donuts">
+        <div class="item-title">Donuts</div>
+      </a>
+      <a href="cupcakes.html" class="item">
+        <img src="cupcakes.jpg" alt="Cupcakes">
+        <div class="item-title">Cupcakes</div>
+      </a>
+      <a href="lollipops.html" class="item">
+        <img src="lolipops.jpg" alt="Lollipops">
+        <div class="item-title">Lollipops</div>
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
